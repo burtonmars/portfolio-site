@@ -8,15 +8,15 @@ import CTA from './components/cta/CTA';
 import Navbar from './components/navbar/Navbar';
 import Brand from './components/brand/Brand';
 
-import './App.css';
+import './App.scss';
 
 const App = () => {
   return (
     <div className='App'>
       <div className='gradient__bg'>
         <Navbar />
-        <Header />
       </div>
+      <Header />
       <Brand></Brand>
       <Features></Features>
       <CTA></CTA>
