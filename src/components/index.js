@@ -1,5 +1,4 @@
-export { Article } from './article/Article';
-export { Brand } from './brand/Brand';
-export { CTA } from './cta/CTA';
-export { Feature } from './feature/Feature';
-export { Navbar } from './navbar/Navbar';
+export { default as Article } from './article/Article';
+export { default as CTA } from './cta/CTA';
+export { default as ProjectCard } from './project-card/Project-card';
+export { default as Navbar } from './navbar/Navbar';
