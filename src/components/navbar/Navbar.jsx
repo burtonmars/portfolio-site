@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
-import logo from '../../assets/img/logo.svg';
 import './navbar.scss';
 
 const Menu = () => (
@@ -17,13 +16,8 @@ const Navbar = () => {
 
   return (
   <div className="portfolio__navbar">
-    <div className="porfolio__navbar-links">
-      <div className="portfolio__navbar-links_logo">
-        <img src={logo} alt="logo" />
-      </div>
-      <div className="portfolio__navbar-links_container">    
-        <Menu />
-      </div>
+    <div className="portfolio__navbar-links_container">    
+      <Menu />
     </div>
     <div className="portfolio__navbar-menu">
       { toggleMenu 
