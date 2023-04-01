@@ -1,36 +1,24 @@
-.portfolio__navbar {
+.navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 2rem 6rem;
 }
 
-.porfolio__navbar-links {
-    flex: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.portfolio__navbar-links_logo img {
-    width: 62px;
-    height: 16px;
-}
-
-.portfolio__navbar-links_container {
+.navbar-links_container {
     display: flex;
     flex-direction: row;
 }
 
-.portfolio__navbar a {
+.navbar a {
     color: inherit;
     text-decoration: none;
 }
 
-.portfolio__navbar-links_container p,
-.portfolio__navbar_sign p,
-.portfolio__navbar-menu_container p {
-    color: #fff;
+.navbar-links_container p,
+.navbar_sign p,
+.navbar-menu_container p {
+    color: var(--color-text);
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -40,7 +28,7 @@
     cursor: pointer;
 }
 
-.portfolio__navbar-menu_container {
+.navbar-menu_container {
     padding: 0.5rem 1rem;
     color: #000;
     background: #fff;
@@ -54,17 +42,17 @@
     cursor: pointer;
 }
 
-.portfolio__navbar-menu {
+.navbar-menu {
     margin-left: 1rem;
     display: none;
     position: relative;
 }
 
-.portfolio__navbar-menu svg {
+.navbar-menu svg {
     cursor: pointer;
 }
 
-.portfolio__navbar-menu_container {
+.navbar-menu_container {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -81,32 +69,32 @@
     box-shadow: 0 0 5 rgba(0,0,0,0.2);
 }
 
-.portfolio__navbar-menu_container p {
+.navbar-menu_container p {
     margin: 1rem 0;
 }
 
 @media screen and (max-width: 900px) {
-    .portfolio__navbar-links_container {
+    .navbar-links_container {
         display: none;
     }
 
-    .portfolio__navbar-menu {
+    .navbar-menu {
         display: flex;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .portfolio__navbar {
+    .navbar {
         padding: 2rem 4rem;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .portfolio__navbar {
+    .navbar {
         padding: 2rem;
     }
 
-    .portfolio__navbar-menu_container {
+    .navbar-menu_container {
         top: 20px;
     }
 

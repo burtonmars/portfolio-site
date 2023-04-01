@@ -4,22 +4,20 @@ import Footer from './containers/footer/Footer';
 import Contact from './containers/contact/Contact';
 import Projects from './containers/projects/Projects';
 import Header from './containers/header/Header';
-import CTA from './components/cta/CTA';
 import Navbar from './components/navbar/Navbar';
-import Features from './containers/features/Features';
+import Skills from './containers/skills/Skills';
 
 import './App.scss';
 
 const App = () => {
   return (
     <div className='App'>
-      <div className='gradient__bg'>
+      <div className='header__nav'>
         <Navbar />
+        <Header />
       </div>
-      <Header />
       <Projects></Projects>
-      <Features/>
-      <CTA></CTA>
+      <Skills/>
       <Contact></Contact>
       <Footer></Footer>
     </div>
