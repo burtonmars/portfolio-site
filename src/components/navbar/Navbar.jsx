@@ -6,6 +6,7 @@ import './navbar.scss';
 const Menu = () => (
   <>
     <p><a href="#projects">Projects</a></p>
+    <p><a href="#skills">Skills</a></p>
     <p><a href="">Resume</a></p>
     <p><a href="#contact">Contact</a></p>
     <p><a href="">Github</a></p>

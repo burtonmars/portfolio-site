@@ -1,0 +1,15 @@
+.skills-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    h2 {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    ul {
+        list-style-type: none;
+        line-height: 1.7rem;
+    }
+}

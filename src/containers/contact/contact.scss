@@ -1,0 +1,24 @@
+.contact-container {
+    background-image: url("../../assets/img/office-background-blurry.jpg");
+    background-size: cover;
+}
+
+.background-tint {
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
+}
+
+.dividing-bar {
+    border: solid;
+    height: 400px;
+}
+
+.send-button {
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    width: 10rem;
+    height: 2rem;
+    background-color: #D7BB84 !important;
+    cursor: pointer;
+}
