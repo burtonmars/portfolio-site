@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import Link from 'next/link';
+
+//import { Projects } from '../../pages';
 
 import './navbar.scss';
 
 const Menu = () => (
   <>
-    <p><a href="#projects">Projects</a></p>
+    <p><a href='#projects'>Projects</a></p>
     <p><a href="#skills">Skills</a></p>
     <p><a href="">Resume</a></p>
     <p><a href="#contact">Contact</a></p>
-    <p><a href="">Github</a></p>
-    <p><a href="">Linkedin</a></p>
+    <p><a href="https://github.com/burtonmars?tab=repositories" target='_blank'>Github</a></p>
+    <p><a href="https://www.linkedin.com/in/marshal-burton/" target='_blank'>Linkedin</a></p>
   </>
 )
 
