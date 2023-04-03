@@ -8,8 +8,10 @@ function SkillsCard(props) {
 
   return (
     <div className='skills-card-container'>
-      <h2>{props.title}</h2>
-      <ul>{skillsList}</ul>
+      <div className="skills-card">
+        <h2>{props.title}</h2>
+        <ul>{skillsList}</ul>
+      </div>
     </div>
   )
 }

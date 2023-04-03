@@ -4,7 +4,7 @@ import './cta.scss';
 const CTA = () => {
   return (
     <div className='cta-container'>
-      <h3>Hi, I'm Marshal</h3>
+      <h2>Marshal Burton</h2>
       <h1>A Full Stack Developer</h1>
       <h3>I'm hard-working, ambitious, always learning, detail oriented, and
         a great team player

@@ -1,3 +1,75 @@
 .projectcard-container {
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 30vw;
+    height: 60vh;
+    box-shadow: 5px 10px 20px #acacac;
+    padding: 2rem;
+    border-radius: 8px;
+
+    h1 {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    img {
+        max-width: 90%;
+        max-height: 20vh;
+    }
+
+    .ctas-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    button {
+        background-color: #449D4A;
+        border: none;
+        border-radius: 20px;
+        padding: .6rem 2rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+.projectcard-container {
+    max-width: 20vw;
+
+    h1 {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: .8rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: .8rem;
+        font-weight: bold;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    button {
+        padding: .4rem 1rem;
+        font-size: .8rem;
+    }
+}
 }

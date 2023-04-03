@@ -1,15 +1,37 @@
 .skills-card-container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    min-width: 35vw;
+    min-height: 40vh;
+    border-radius: 3px;
 
     h2 {
         font-size: large;
         font-weight: bold;
+        padding-bottom: 1rem;
     }
 
     ul {
         list-style-type: none;
         line-height: 1.7rem;
     }
+}
+
+.skills-card-container:hover {
+    background-color: #E9ECEA;
+}
+
+.skills-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 800px) {
+
+    .skills-card-container {
+        width: 100vw;
+    }
+
 }
