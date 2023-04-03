@@ -1,9 +1,12 @@
 .contact-container {
+    max-width: 100vw;
+    margin-top: 10rem;
     background-image: url("../../assets/img/office-background-blurry.jpg");
     background-size: cover;
 }
 
 .background-tint {
+    max-width: 100vw;
     background-color: rgba(0, 0, 0, 0.2);
     background-blend-mode: multiply;
 }
@@ -21,4 +24,24 @@
     height: 2rem;
     background-color: #D7BB84 !important;
     cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+    .dividing-bar {
+        display: none;
+    }
+
+    .contact-info {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .sub-title {
+        display: none;
+    }
+
+    input {
+        height: 10px;
+    }
 }

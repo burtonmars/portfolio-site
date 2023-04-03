@@ -30,17 +30,17 @@ const Contact = () => {
 
   return (
     <div className='contact-container background-tint' id="contact">
-      <div className="h-screen flex items-center justify-center">
+      <div className="contact-form-container h-screen flex items-center justify-center">
         <form onSubmit={formik.handleSubmit} className='bg-white flex items-center justify-center rounded-lg w-4/5 max-w-screen-lg'>
-          <div className='flex-1 p-10 text-sm leading-8'>
+          <div className='contact-info flex-1 p-10 text-sm leading-8'>
             <p className='font-bold'>Contact Info</p>
             <p>Phone: 604-446-4461</p>
             <p>email: <a href="mailto:marshal.t.burton@gmail.com">marshal.t.burton@gmail.com</a></p>
           </div>
           <div className='dividing-bar border-gray-500'></div>
           <div className='flex-[2_2_0%] text-gray-700 p-20'>
-            <h1 className='text-3xl pb-2 font-bold'>Contact Me</h1>
-            <p className='text-lg text-gray-500'>send me and email if you want to connect</p>
+            <h1 className='title text-3xl pb-2 font-bold'>Contact</h1>
+            <p className='sub-title text-lg text-gray-500'>send me and email if you want to connect</p>
             <div className='mt-6'>
               {/* name input */}
               <div className='pb-4'>

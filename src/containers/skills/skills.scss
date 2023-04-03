@@ -8,25 +8,19 @@
 
 
 @media screen and (max-width: 1050px) {
-
+    .skills-container {
+        margin-bottom: 15rem;
+        margin-top: -10rem;
+    }
 }
 
 @media screen and (max-width: 800px) {
 
     .skills-container {
-        margin-top: 15rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
     }
-
-}
-
-@media screen and (max-width: 690px) {
-
-}
-
-@media screen and (max-width: 600px) {
 
 }
