@@ -5,6 +5,7 @@ import { ProjectCard } from '../../components'
 import teatopiaLanding from '../../assets/img/teatopia-landing.PNG';
 import portfolioLanding from '../../assets/img/portfolio-screen-shot.PNG';
 import regalityLanding from '../../assets/img/regality-brands-screen-shot.PNG';
+import antsLanding from '../../assets/img/ants-screenshot.PNG';
 
 
 const Projects = () => {
@@ -30,12 +31,12 @@ const Projects = () => {
     },
         {
     id: 2,
-      title: "Regality Brands",
-      involvement: "Frontend design and development",
-      image: regalityLanding,
-      description: "A website for a fictional Branding agency. Made using HTML/SCSS",
-      liveLink: "http://regalitybrands.online/",
-      codeLink: "https://github.com/burtonmars/regality-brands" 
+      title: "Ant Colony",
+      involvement: "Frontend development with JavaScript",
+      image: antsLanding,
+      description: "A simulation of a self balancing ant colony",
+      liveLink: "http://antcolonysim.online/",
+      codeLink: "https://github.com/burtonmars/ants" 
     }
   ]
 
