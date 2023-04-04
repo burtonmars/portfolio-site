@@ -1,8 +1,17 @@
 .navbar {
     display: flex;
+      position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
     justify-content: flex-end;
     align-items: center;
     padding: 2rem 6rem;
+
+    img {
+        width: 32px;
+    }
 }
 
 .navbar-links_container {

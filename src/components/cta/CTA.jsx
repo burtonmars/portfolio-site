@@ -9,7 +9,9 @@ const CTA = () => {
       <h3>I'm hard-working, ambitious, always learning, detail oriented, and
         a great team player
       </h3>
-      <button className='cta-button'>My Work</button>
+      <a href="#projects">
+          <button className='cta-button'>My Work</button>
+      </a>
     </div>
   )
 }

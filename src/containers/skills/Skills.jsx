@@ -28,7 +28,7 @@ const backEndProps = {
   title: "Back-End Experience",
   experience: [
     { id: 0,
-      value: "Javascript"
+      value: "Javascript ES6"
     },
     { id: 1,
       value: "Node.JS"
