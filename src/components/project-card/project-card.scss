@@ -27,7 +27,7 @@
     .ctas-container {
         display: flex;
         width: 100%;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
 
@@ -90,16 +90,15 @@
     img {
         padding: 1rem;
     }
+
+    .ctas-container {
+        padding-top: 2rem;
+    }
 }
 
 @media screen and (max-width: 1150px) and (min-width: 1030px) {
     .projectcard-container {
         margin-bottom: 5rem;
-    }
-
-    .ctas-container {
-        padding-top: 1rem;
-        max-width: 80%;
     }
 
 }
@@ -110,7 +109,6 @@
     }
 
     .ctas-container {
-        padding-top: 2rem;
         max-width: 70%;
     }
 }
