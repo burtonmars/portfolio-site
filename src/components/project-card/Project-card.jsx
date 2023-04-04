@@ -9,10 +9,10 @@ const ProjectCard = (project) => {
       <img src={project.image} alt="" />
       <p>{project.description}</p>
       <div className="ctas-container">
-        <a href={project.liveLink} target='_blank'>
+        <a className="btn-link-overlay" href={project.liveLink} target='_blank' rel="noreferrer">
           <button className="btn-live">Live Site</button>
         </a>
-        <a href={project.codeLink} target='_blank'>
+        <a className="btn-link-overlay" href={project.codeLink} target='_blank' rel="noreferrer">
           <button className="btn-code">Code</button>
         </a>
       </div>

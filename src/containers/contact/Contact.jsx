@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './contact.scss';
 
-import { Formik, useFormik } from 'formik';
+import { useFormik } from 'formik';
 import * as Yup from "yup";
 import emailjs from '@emailjs/browser';
 
@@ -10,9 +10,6 @@ const Contact = () => {
   const emailAddress = useRef();
 
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
 
   useEffect(() => {
     let timeoutId;
@@ -68,7 +65,7 @@ const Contact = () => {
             <p>email: <a href="mailto:marshal.t.burton@gmail.com">marshal.t.burton@gmail.com</a></p>
           </div>
           <div className='dividing-bar border-gray-600'></div>
-          <div className='flex-[2_2_0%] text-gray-700 p-20'>
+          <div className='input-container flex-[2_2_0%] text-gray-700 p-20'>
             <h1 className='title text-3xl pb-2 font-bold'>Contact</h1>
             <p className='sub-title text-lg text-gray-500'>send me and email if you want to connect</p>
             <div className='mt-6'>
@@ -116,6 +113,7 @@ const Contact = () => {
                         />
               </div>
             </div>
+            {/* submit-button */}
             <div className="button-container w-full flex justify-center items-center">
               <button type='submit' className='send-button text-md' value="Send">Send</button>
             </div>

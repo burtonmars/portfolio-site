@@ -6,6 +6,7 @@
     max-width: 20vw;
     height: 60vh;
     box-shadow: 5px 10px 20px #acacac;
+    background-color: white;
     padding: 2rem;
     border-radius: 8px;
 
@@ -91,14 +92,50 @@
     }
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1150px) and (min-width: 1030px) {
     .projectcard-container {
-      max-width: 100vw;
-      margin-bottom: 3rem;
+        margin-bottom: 5rem;
     }
 
     .ctas-container {
         padding-top: 1rem;
         max-width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .projectcard-container {
+      margin-bottom: 3rem;
+    }
+
+    .ctas-container {
+        padding-top: 2rem;
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 925px) and (min-width: 580px) {
+    .btn-link-overlay {
+        width: 3rem;
+    }
+
+    button {
+        width: 2.5rem !important;
+        font-size: .6rem !important;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    .projectcard-container {
+      max-width: 100vw;
+    }
+
+}
+
+@media screen and (max-width: 465px) {
+        .ctas-container {
+        max-width: 100vw;
     }
 }

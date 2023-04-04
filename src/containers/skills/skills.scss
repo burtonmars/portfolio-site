@@ -1,5 +1,5 @@
 .skills-container {
-    margin-top: 15rem;
+    margin: 15rem 10rem 0 10rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -24,3 +24,24 @@
     }
 
 }
+
+@media screen and (max-width: 500px) {
+
+    .skills-container {
+        margin-top: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+   .skills-container {
+        margin-top: -3rem;
+    }
+
+    .right-container {
+        margin-bottom: -4rem;
+    }
+
+}
+

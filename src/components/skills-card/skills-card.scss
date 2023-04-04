@@ -32,6 +32,23 @@
 
     .skills-card-container {
         width: 100vw;
+        margin-top: 10rem;
+    }
+
+    .right-container {
+        margin-bottom: -10rem;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .skills-card-container {
+        margin-top: 0rem;
+    }
+
+    .right-container {
+        margin-bottom: 0rem;
     }
 
 }

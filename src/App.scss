@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
     //***DEBUG GHOST***
     // background: #000 !important;
@@ -29,6 +30,13 @@ body {
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.background-image {
+    background-image: url('./assets/img/halftone-dots.jpg');
+    background-size: contain;
+    z-index: -1;
+    background-attachment: fixed;
 }
 
 @-webkit-keyframes scale-up-center {
