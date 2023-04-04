@@ -1,6 +1,6 @@
 import React from 'react';
 import { CTA } from '../../components';
-import workFromHome from '../../assets/img/S5_Working-from-home.png';
+import workFromHome from '../../assets/img/S5_Working-from-Home.webp';
 
 import './header.scss';
 

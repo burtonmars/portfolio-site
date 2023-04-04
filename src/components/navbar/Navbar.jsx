@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import githubLogo from '../../assets/img/github-mark.png';
-import linkedinLogo from '../../assets/img/LI-In-Bug.png';
+import githubLogo from '../../assets/img/github-mark.webp';
+import linkedinLogo from '../../assets/img/LI-In-Bug.webp';
 
 import './navbar.scss';
 

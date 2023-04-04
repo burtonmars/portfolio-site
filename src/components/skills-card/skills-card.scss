@@ -28,6 +28,13 @@
     align-items: flex-start;
 }
 
+@media screen and (min-width: 1275px) {
+
+    .skills-card-container {
+        min-width: 25vw;
+    }
+}
+
 @media screen and (max-width: 800px) {
 
     .skills-card-container {
