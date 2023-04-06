@@ -1,9 +1,12 @@
 import React from 'react';
 import { SkillsCard } from '../../components';
 import './skills.scss';
+import monitorImg from '../../assets/img/S5_Monitor.webp';
+import serverImg from '../../assets/img/S5_Server.webp';
 
 const frontEndProps = {
   title: "Front-End Experience",
+  img: monitorImg,
   experience: [
     { id: 0,
       value: "Typescript" },
@@ -26,6 +29,7 @@ const frontEndProps = {
 
 const backEndProps = {
   title: "Back-End Experience",
+  img: serverImg,
   experience: [
     { id: 0,
       value: "Javascript ES6"
@@ -55,23 +59,29 @@ const Skills = () => {
   return (
     <div id="skills" className='skills-container h-screen'>
       <div className="right-container">
-        <div className="front-end-skills">
-          { showFrontendSkills &&
-            <SkillsCard 
-              title={frontEndProps.title}
-              skills={frontEndProps.experience}
-            />
-          }
+        <div className="right-container-text">
+          <div className="front-end-skills">
+            { showFrontendSkills &&
+              <SkillsCard 
+                title={frontEndProps.title}
+                skills={frontEndProps.experience}
+                img={frontEndProps.img}
+              />
+            }
+          </div>
         </div>
       </div>
       <div className="left-container">
-        <div className="back-end-skills">
-          { showBackendSkills &&
-            <SkillsCard
-              title={backEndProps.title}
-              skills={backEndProps.experience}
-            />
-          }
+        <div className="left-container-text">
+          <div className="back-end-skills">
+            { showBackendSkills &&
+              <SkillsCard
+                title={backEndProps.title}
+                skills={backEndProps.experience}
+                img={backEndProps.img}
+              />
+            }
+          </div>
         </div>
       </div>
     </div>

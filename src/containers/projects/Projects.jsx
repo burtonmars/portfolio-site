@@ -2,10 +2,9 @@ import React from 'react'
 
 import './projects.scss';
 import { ProjectCard } from '../../components'
-import teatopiaLanding from '../../assets/img/teatopia-landing.PNG';
-import portfolioLanding from '../../assets/img/portfolio-screen-shot.PNG';
-import regalityLanding from '../../assets/img/regality-brands-screen-shot.PNG';
-import antsLanding from '../../assets/img/ants-screenshot.PNG';
+import teatopiaLanding from '../../assets/img/teatopia-landing.webp';
+import portfolioLanding from '../../assets/img/portfolio-screen-shot.webp';
+import antsLanding from '../../assets/img/ants-screenshot.webp';
 
 
 const Projects = () => {
@@ -16,7 +15,7 @@ const Projects = () => {
       title: "Teatopia",
       involvement: "Frontend design and development",
       image: teatopiaLanding,
-      description: "A website for a fictional Tea company. Made with HTML/SCSS",
+      description: "A website for a fictional Tea company. Built with HTML/SCSS",
       liveLink: "https://teatopia.online/",
       codeLink: "https://github.com/burtonmars/teatopia" 
     },
@@ -25,7 +24,7 @@ const Projects = () => {
       title: "My Portfolio",
       involvement: "Frontend design and development",
       image: portfolioLanding,
-      description: "My personal portfolio (this site). Made with React, Next.JS, and Tailwind.",
+      description: "My personal portfolio (this site). Built with React, Next.JS, and Tailwind.",
       liveLink: "",
       codeLink: "https://github.com/burtonmars/portfolio-site" 
     },
@@ -34,7 +33,7 @@ const Projects = () => {
       title: "Ant Colony",
       involvement: "Frontend development with JavaScript",
       image: antsLanding,
-      description: "A simulation of a self balancing ant colony",
+      description: "A simulation of a self balancing ant colony built with Javascript, HTML/CSS",
       liveLink: "http://antcolonysim.online/",
       codeLink: "https://github.com/burtonmars/ants" 
     }

@@ -11,12 +11,18 @@ const Menu = () => (
     <p><a href="#skills">Skills</a></p>
     <p><a href="Marshal Burton CV.pdf" target='_blank' rel="noreferrer"><button>Resume</button></a></p>
     <p><a href="#contact">Contact</a></p>
-    <p><a href="https://github.com/burtonmars?tab=repositories" target='_blank' rel="noreferrer">
+    <p className='github-icon'><a href="https://github.com/burtonmars?tab=repositories" target='_blank' rel="noreferrer">
       <img src={githubLogo} alt="Github" /></a>
     </p>
-    <p><a href="https://www.linkedin.com/in/marshal-burton/" target='_blank' rel="noreferrer">
+    <p className='linkedin-icon'><a href="https://www.linkedin.com/in/marshal-burton/" target='_blank' rel="noreferrer">
       <img src={linkedinLogo} alt="Linkedin" /></a>
-      </p>
+    </p>
+    <p className='github-text' ><a href="https://github.com/burtonmars?tab=repositories" target='_blank' rel="noreferrer">
+      Github</a>
+    </p>
+    <p className='linkedin-text' ><a href="https://www.linkedin.com/in/marshal-burton/" target='_blank' rel="noreferrer">
+      Linkedin</a>
+    </p>
   </>
 )
 

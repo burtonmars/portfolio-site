@@ -6,7 +6,9 @@ const ProjectCard = (project) => {
     <div className='projectcard-container'>
       <h1>{project.title}</h1>
       <h2>{project.involvement}</h2>
-      <img src={project.image} alt="" />
+      <a href={project.liveLink} target='_blank' rel="noreferrer">
+        <img src={project.image} alt="project image" />
+      </a>
       <p>{project.description}</p>
       <div className="ctas-container">
         <a className="btn-link-overlay" href={project.liveLink} target='_blank' rel="noreferrer">
