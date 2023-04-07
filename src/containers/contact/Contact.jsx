@@ -120,8 +120,8 @@ const Contact = () => {
           </div>
         </form>
         {isSubmitted && (
-        <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-green-500 text-white p-4 rounded-lg z-50">
-          <p>Email Sent Successfully!</p>
+        <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/3 bg-green-300 text-black text-center p-6 w-1/5 rounded-lg z-50">
+          <p>Success! Thanks for your email.</p>
         </div>
         )}
       </div>

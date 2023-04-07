@@ -20,10 +20,10 @@ const frontEndProps = {
       value: "Tailwind"
     }, 
     { id: 4,
-      value: "HTML"
+      value: "Kendo"
     }, 
     { id: 5,
-      value: "CSS"
+      value: "HTML5/CSS3"
     }]
 }
 
