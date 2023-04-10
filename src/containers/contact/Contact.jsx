@@ -42,10 +42,9 @@ const Contact = () => {
         .max(10000, "Message too long")
         .trim().required("Email body cannot be empty")
     }),
-     onSubmit: (values, { resetForm }) => {
+     onSubmit: (_, { resetForm }) => {
        emailjs.sendForm('service_20c95lb', 'template_nw30byf', form.current, 'g8iLCTUDIsJuYVTHo')
-        .then((result) => {
-          console.log(result.text, result.status);
+        .then(() => {
           setIsSubmitted(true);
           resetForm();
         })

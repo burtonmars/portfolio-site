@@ -81,6 +81,12 @@
     margin: 1rem 0;
 }
 
+@media screen and (min-width: 1600px) {
+    .navbar {
+        padding-right: 15rem;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     .navbar {
         padding-right: 4rem;

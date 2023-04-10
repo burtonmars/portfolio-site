@@ -19,9 +19,9 @@ const App = () => {
             <Header />
           </div>
           <Skills/>
-          <Projects></Projects>
-          <Contact></Contact>
-          <Footer></Footer>
+          <Projects/>
+          <Contact/>
+          <Footer/>
         </div>
       </div>
     </div>
