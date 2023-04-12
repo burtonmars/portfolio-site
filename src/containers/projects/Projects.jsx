@@ -24,7 +24,7 @@ const Projects = () => {
       title: "My Portfolio",
       techs: ["React", "Tailwind", "emailJS", "HTML", "SCSS", "Figma"],
       image: portfolioLanding,
-      description: "My personal portfolio (this site). Built with React, Next.JS, and Tailwind.",
+      description: "My personal portfolio (this site).",
       liveLink: "",
       codeLink: "https://github.com/burtonmars/portfolio-site" 
     },
@@ -33,7 +33,7 @@ const Projects = () => {
       title: "Restaurant Webpage",
       techs: ["React", "Next.JS", "HTML", "SCSS", "Figma"],
       image: theblackFigLanding,
-      description: "A responsive website built for a fictional restaurant. Highlights include a google maps widget.",
+      description: "A responsive website built for a fictional restaurant.",
       liveLink: "https://the-black-fig.vercel.app/",
       codeLink: "https://github.com/burtonmars/the-black-fig" 
     }
