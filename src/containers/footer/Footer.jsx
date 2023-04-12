@@ -3,7 +3,9 @@ import './footer.scss';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='footer-container'>
+      <p>© 2023 Marshal Burton</p>
+    </div>
   )
 }
 

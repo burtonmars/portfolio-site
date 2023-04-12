@@ -1,6 +1,24 @@
 .projects-list {
     display: flex;
-    flex-direction: column;
-    padding: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0rem 1rem 10rem 1rem;
     margin: 3rem;
+}
+
+@media screen and (max-width: 1150px) {
+    .projects-list {
+        flex-direction: column;
+        height: fit-content !important;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .projects-list {
+        margin: 0;
+        padding: 0;
+        width: 100;
+    }
 }

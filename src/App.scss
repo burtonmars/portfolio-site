@@ -2,29 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
-    padding: 0;
-    margin: 0;
+    //***DEBUG GHOST***
+    // background: #000 !important;
+    // color: #0f0 !important;
+    // outline: solid #f00 1px !important;
+
+    padding: 0px;
+    margin: 0px;
     scroll-behavior: smooth;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 body {
-    background: var(--color-bg);
     font-family: var(--font-family);
-}
-
-.section__padding {
-    padding: 4rem 6rem;
-}
-
-.section__margin {
-    padding: 4rem 6rem;
 }
 
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.background-image {
+    background-image: url('./assets/img/halftone-dots.webp');
+    background-size: contain;
+    z-index: -1;
+    background-attachment: fixed;
 }
 
 @-webkit-keyframes scale-up-center {

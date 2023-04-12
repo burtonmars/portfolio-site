@@ -1,13 +1,30 @@
 .navbar {
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     justify-content: flex-end;
-    align-items: center;
     padding: 2rem 6rem;
+    z-index: 9999;
+
+    img {
+        width: 32px;
+    }
+}
+
+.navbar-scrolled {
+    background-color: RGB(256, 256, 256, .9);
 }
 
 .navbar-links_container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.github-text, .linkedin-text {
+    display: none;
 }
 
 .navbar-links_container p,
@@ -59,7 +76,7 @@
     top: 40px;
     right: 0;
     margin-top: 1rem;
-    min-width: 210px;
+    min-width: 80px;
     border-radius: 5px;
     box-shadow: 0 0 5 rgba(0,0,0,0.2);
 }
@@ -68,29 +85,45 @@
     margin: 1rem 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 1600px) {
+    .navbar {
+        padding-right: 15rem;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .navbar {
+        padding-right: 4rem;
+    }
+
+    .navbar-links_container-scrolled {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
     .navbar-links_container {
         display: none;
+    }
+
+    .navbar-scrolled {
+        background-color: rgb(0, 0, 0, 0);
+    }
+
+    .github-text, .linkedin-text {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+     .github-icon, .linkedin-icon {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: flex-end;
     }
 
     .navbar-menu {
         display: flex;
     }
-}
-
-@media screen and (max-width: 700px) {
-    .navbar {
-        padding: 2rem 4rem;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .navbar {
-        padding: 2rem;
-    }
-
-    .navbar-menu_container {
-        top: 20px;
-    }
-
 }

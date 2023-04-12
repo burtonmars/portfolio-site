@@ -12,14 +12,18 @@ import './App.scss';
 const App = () => {
   return (
     <div className='App'>
-      <div className='header__nav'>
-        <Navbar />
-        <Header />
+      <div className="background-image">
+        <div>
+          <div className='header__nav'>
+            <Navbar />
+            <Header />
+          </div>
+          <Skills/>
+          <Projects/>
+          <Contact/>
+          <Footer/>
+        </div>
       </div>
-      <Skills/>
-      <Projects></Projects>
-      <Contact></Contact>
-      <Footer></Footer>
     </div>
   )
 };
