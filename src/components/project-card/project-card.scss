@@ -11,18 +11,43 @@
     border-radius: 8px;
     transition: transform 0.2s ease-in-out;;
 
-    h1 {
-        font-size: 1.6rem;
-        font-weight: bold;
+    .projectcard__h1-container {
+        h1 {
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
     }
 
-    h2 {
-        font-size: 1rem;
+    .tech-tags {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: .9rem;
+
+        .tech-tags-p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            width: 5rem;
+            background-color: var(--color-theme-grey-green);
+            border-radius: 10px;
+            margin-right: .5rem;
+            margin-bottom: .5rem;
+            height: .8rem !important;
+            padding: .3rem;
+        }
     }
 
-    img {
-        max-width: 90%;
-        max-height: 20vh;
+    .project-img-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+        max-width: 100%;
+        max-height: 40%;
     }
 
     .ctas-container {
@@ -34,13 +59,12 @@
 
     button {
         background-color: #449D4A;
-        border: none;
         border-radius: 20px;
         padding: .6rem 2rem;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 14px;
+        font-size: .9rem;
         font-weight: bolder;
         width: 4rem;
         cursor: pointer;
@@ -51,6 +75,24 @@
     transform: scale(1.1);
 }
 
+
+@media screen and (max-width: 1460px) {
+    .projectcard-container {
+      
+       .tech-tags {
+        height: 5rem;
+        font-size: .7rem;
+
+            .tech-tags-p {
+                width: 4rem;
+                height: 1.3rem;
+            }
+        }
+
+    }
+}
+
+
 @media screen and (max-width: 1300px) {
     .projectcard-container {
         max-width: 20vw;
@@ -60,12 +102,7 @@
             font-weight: bold;
         }
 
-        h2 {
-            font-size: .8rem;
-            font-weight: bold;
-        }
-
-        p {
+        .project-description-p {
             font-size: .8rem;
             font-weight: bold;
         }
@@ -134,6 +171,11 @@
         font-size: .6rem !important;
     }
 
+    .project-img-wrapper img {
+        max-width: 90%;
+        max-height: 100%;
+    }
+
 }
 
 @media screen and (max-width: 580px) {
@@ -142,9 +184,31 @@
       max-height: 50vh;
     }
 
+    .project-img-wrapper img {
+        max-width: 90%;
+        max-height: 100%;
+    }
+
 }
 
 @media screen and (max-width: 465px) {
+    .projectcard-container {
+        min-height: 60vh;
+        margin-bottom: 5rem;
+        border-radius: 0px;
+      
+       .tech-tags {
+            height: 5rem;
+
+            .tech-tags-p {
+                width: 3.6rem;
+                height: 1rem;
+                font-size: 11px;
+            }
+        }
+
+    }
+
     .ctas-container {
         max-width: 100vw;
     }

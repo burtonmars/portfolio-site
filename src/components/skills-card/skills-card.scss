@@ -56,6 +56,18 @@
     }
 }
 
+@media screen and (max-width: 850px) {
+
+    .skills-text h2 {
+        font-size: 1.4rem;
+    }
+
+    .skills-text ul {
+        font-size: 1.2rem;
+    }
+
+}
+
 @media screen and (max-width: 800px) {
 
     .skills-card-container {
@@ -72,10 +84,18 @@
         width: 90vw;
     }
 
-
 }
 
 @media screen and (max-width: 500px) {
+
+    .skills-text h2 {
+        font-size: 1rem;
+    }
+
+    .skills-text ul {
+        line-height: 2;
+        font-size: .9rem;
+    }
 
     .skills-card-container {
         margin-top: 0rem;

@@ -6,19 +6,19 @@
     margin: 3rem;
 }
 
-
 @media screen and (max-width: 1150px) {
     .projects-list {
         flex-direction: column;
-        height: 200vh !important;
+        height: fit-content !important;
     }
 
 
 }
 
-
 @media screen and (max-width: 500px) {
     .projects-list {
-        margin-top: 8rem;
+        margin: 0;
+        padding: 0;
+        width: 100;
     }
 }

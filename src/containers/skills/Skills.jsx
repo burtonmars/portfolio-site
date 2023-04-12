@@ -11,20 +11,24 @@ const frontEndProps = {
     { id: 0,
       value: "Typescript" },
     { id: 1,
-      value: "Angular"
-    }, 
-    { id: 2,
       value: "React"
     }, 
+    { id: 2,
+      value: "Angular"
+    }, 
     { id: 3,
-      value: "Tailwind"
+      value: "NextJS"
     }, 
     { id: 4,
-      value: "Kendo"
+      value: "Tailwind"
     }, 
     { id: 5,
-      value: "HTML5/CSS3"
-    }]
+      value: "HTML5"
+    },
+    { id: 6,
+      value: "CSS3"
+    },
+  ]
 }
 
 const backEndProps = {
@@ -41,12 +45,15 @@ const backEndProps = {
       value: "Express"
     },
     { id: 3,
-      value:  "REST APIs"
+      value: "Sequelize ORM"
     },
     { id: 4,
-      value: "SQL"
+      value:  "REST APIs"
     },
     { id: 5,
+      value: "SQL"
+    },
+    { id: 6,
       value: "SSMS"
     }
   ]

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import githubLogo from '../../assets/img/github-mark.webp';
 import linkedinLogo from '../../assets/img/LI-In-Bug.webp';
@@ -28,9 +28,23 @@ const Menu = () => (
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
 
   return (
-  <div className="navbar">
+  <div className={scrolled ? "navbar navbar-scrolled" : "navbar"}>
     <div className="navbar-links_container">
       <Menu />
     </div>

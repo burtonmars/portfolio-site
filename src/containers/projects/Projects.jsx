@@ -4,7 +4,7 @@ import './projects.scss';
 import { ProjectCard } from '../../components'
 import teatopiaLanding from '../../assets/img/teatopia-landing.webp';
 import portfolioLanding from '../../assets/img/portfolio-screen-shot.webp';
-import antsLanding from '../../assets/img/ants-screenshot.webp';
+import theblackFigLanding from '../../assets/img/theblackfig-screenshot.webp';
 
 
 const Projects = () => {
@@ -12,17 +12,17 @@ const Projects = () => {
   const projects = [
     {
       id: 0,
-      title: "Teatopia",
-      involvement: "Frontend design and development",
+      title: "Tea Sales Webpage",
+      techs: ["Adobe XD", "HTML", "CSS"],
       image: teatopiaLanding,
-      description: "A website for a fictional Tea company. Built with HTML/SCSS",
+      description: "A responsive website for a fictional Tea company. Designed and built from scratch with plain HTML/CSS",
       liveLink: "https://teatopia.online/",
       codeLink: "https://github.com/burtonmars/teatopia" 
     },
         {
     id: 1,
       title: "My Portfolio",
-      involvement: "Frontend design and development",
+      techs: ["React", "Tailwind", "emailJS", "HTML", "SCSS", "Figma"],
       image: portfolioLanding,
       description: "My personal portfolio (this site). Built with React, Next.JS, and Tailwind.",
       liveLink: "",
@@ -30,12 +30,12 @@ const Projects = () => {
     },
         {
     id: 2,
-      title: "Ant Colony",
-      involvement: "Frontend development with JavaScript",
-      image: antsLanding,
-      description: "A simulation of a self balancing ant colony built with Javascript, HTML/CSS",
-      liveLink: "http://antcolonysim.online/",
-      codeLink: "https://github.com/burtonmars/ants" 
+      title: "Restaurant Webpage",
+      techs: ["React", "Next.JS", "HTML", "SCSS", "Figma"],
+      image: theblackFigLanding,
+      description: "A responsive website built for a fictional restaurant. Highlights include a google maps widget.",
+      liveLink: "https://the-black-fig.vercel.app/",
+      codeLink: "https://github.com/burtonmars/the-black-fig" 
     }
   ]
 
