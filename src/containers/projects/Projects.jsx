@@ -10,15 +10,6 @@ import theblackFigLanding from '../../assets/img/theblackfig-screenshot.webp';
 const Projects = () => {
 
   const projects = [
-    {
-      id: 0,
-      title: "Tea Sales Webpage",
-      techs: ["Adobe XD", "HTML", "CSS"],
-      image: teatopiaLanding,
-      description: "A responsive website for a fictional Tea company. Designed and built from scratch with plain HTML/CSS",
-      liveLink: "https://teatopia.online/",
-      codeLink: "https://github.com/burtonmars/teatopia" 
-    },
         {
     id: 1,
       title: "My Portfolio",
@@ -36,6 +27,15 @@ const Projects = () => {
       description: "A responsive website built for a fictional restaurant.",
       liveLink: "https://the-black-fig.vercel.app/",
       codeLink: "https://github.com/burtonmars/the-black-fig" 
+    },
+    {
+      id: 0,
+      title: "Tea Sales Webpage",
+      techs: ["Adobe XD", "HTML", "CSS"],
+      image: teatopiaLanding,
+      description: "A responsive website for a fictional Tea company. Designed and built from scratch with plain HTML/CSS",
+      liveLink: "https://teatopia.online/",
+      codeLink: "https://github.com/burtonmars/teatopia" 
     }
   ]
 
