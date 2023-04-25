@@ -2,9 +2,9 @@ import React from 'react'
 
 import './projects.scss';
 import { ProjectCard } from '../../components'
-import teatopiaLanding from '../../assets/img/teatopia-landing.webp';
+import ambientFocusLanding from '../../assets/img/ambient-focus-snapshot.webp';
 import portfolioLanding from '../../assets/img/portfolio-screen-shot.webp';
-import theblackFigLanding from '../../assets/img/theblackfig-screenshot.webp';
+import theBlackFigLanding from '../../assets/img/theblackfig-screenshot.webp';
 
 
 const Projects = () => {
@@ -23,19 +23,19 @@ const Projects = () => {
     id: 2,
       title: "Restaurant Webpage",
       techs: ["React", "Next.JS", "HTML", "SCSS", "Figma"],
-      image: theblackFigLanding,
+      image: theBlackFigLanding,
       description: "A responsive website built for a fictional restaurant.",
       liveLink: "https://the-black-fig.vercel.app/",
       codeLink: "https://github.com/burtonmars/the-black-fig" 
     },
     {
       id: 0,
-      title: "Tea Sales Webpage",
-      techs: ["Adobe XD", "HTML", "CSS"],
-      image: teatopiaLanding,
-      description: "A responsive website for a fictional Tea company. Designed and built from scratch with plain HTML/CSS",
-      liveLink: "https://teatopia.online/",
-      codeLink: "https://github.com/burtonmars/teatopia" 
+      title: "Ambient Focus",
+      techs: ["React", "Next.JS", "HTML", "SCSS", "Figma"],
+      image: ambientFocusLanding,
+      description: "A soundscape customize tool for creating peaceful ambient sound",
+      liveLink: "https://ambient-focus-chi.vercel.app/",
+      codeLink: "https://github.com/burtonmars/ambient-temp" 
     }
   ]
 
