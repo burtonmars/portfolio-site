@@ -12,6 +12,16 @@ const Projects = () => {
   const projects = [
         {
     id: 1,
+    id: 0,
+      title: "Ambient Focus",
+      techs: ["React", "Next.JS", "HTML", "SCSS", "Figma"],
+      image: ambientFocusLanding,
+      description: "A customizable soundscape tool for creating peaceful ambient sound.",
+      liveLink: "https://ambient-focus-chi.vercel.app/",
+      codeLink: "https://github.com/burtonmars/ambient-temp" 
+    },
+        {
+    id: 2,
       title: "My Portfolio",
       techs: ["React", "Tailwind", "emailJS", "HTML", "SCSS", "Figma"],
       image: portfolioLanding,
@@ -19,23 +29,14 @@ const Projects = () => {
       liveLink: "",
       codeLink: "https://github.com/burtonmars/portfolio-site" 
     },
-        {
-    id: 2,
+    {
       title: "Restaurant Webpage",
       techs: ["React", "Next.JS", "HTML", "SCSS", "Figma"],
       image: theBlackFigLanding,
       description: "A responsive website built for a fictional restaurant.",
       liveLink: "https://the-black-fig.vercel.app/",
       codeLink: "https://github.com/burtonmars/the-black-fig" 
-    },
-    {
-      id: 0,
-      title: "Ambient Focus",
-      techs: ["React", "Next.JS", "HTML", "SCSS", "Figma"],
-      image: ambientFocusLanding,
-      description: "A soundscape customize tool for creating peaceful ambient sound",
-      liveLink: "https://ambient-focus-chi.vercel.app/",
-      codeLink: "https://github.com/burtonmars/ambient-temp" 
+     
     }
   ]
 
