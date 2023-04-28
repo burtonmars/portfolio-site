@@ -23,7 +23,7 @@
     "tailwind": "^4.0.0",
     "web-vitals": "^2.1.4",
     "yup": "^1.0.2",
-    "@snyk/protect": "1.1136.0"
+    "@snyk/protect": "1.1140.0"
   },
   "scripts": {
     "start": "react-scripts start",
