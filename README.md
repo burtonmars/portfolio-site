@@ -1,23 +1,8 @@
-# Portfolio Site for showcasing development and design work
+# Portfolio Site
 
-built using React, bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+My portfolio site is a frontend app I built with React to showcase my most recent projects. I am still not completely happy with the UI, so it should be ever-evolving. The biggest challenge I faced building this web app was getting my custom contact form functional. I achieved this in the end using [EmailJS](https://www.emailjs.com/), which gave me all the functionality I needed on a free plan.
 
 
 
+
+![portfolio-snap](https://user-images.githubusercontent.com/34987913/235317980-52e63418-adbb-4d6b-a711-139384930ee2.PNG)
