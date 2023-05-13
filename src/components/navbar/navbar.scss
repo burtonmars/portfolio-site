@@ -7,14 +7,16 @@
     justify-content: flex-end;
     padding: 2rem 6rem;
     z-index: 9999;
+    background: linear-gradient(to top, 
+        rgba(255, 255, 255, 0), 
+        rgba(255, 255, 255, 0.5) 25%, 
+        rgba(255, 255, 255, 1) 50%, 
+        rgba(255, 255, 255, 1)
+    );
 
     img {
         width: 32px;
     }
-}
-
-.navbar-scrolled {
-    background-color: RGB(256, 256, 256, .9);
 }
 
 .navbar-links_container {
@@ -102,6 +104,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .navbar {
+        padding-right: 4rem;
+    }
+
     .navbar-links_container {
         display: none;
     }
@@ -125,5 +131,11 @@
 
     .navbar-menu {
         display: flex;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding-right: 2rem;
     }
 }
