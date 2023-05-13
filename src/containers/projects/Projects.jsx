@@ -2,40 +2,41 @@ import React from 'react'
 
 import './projects.scss';
 import { ProjectCard } from '../../components'
-import teatopiaLanding from '../../assets/img/teatopia-landing.webp';
+import ambientFocusLanding from '../../assets/img/ambient-focus-snapshot.webp';
 import portfolioLanding from '../../assets/img/portfolio-screen-shot.webp';
-import theblackFigLanding from '../../assets/img/theblackfig-screenshot.webp';
+import theBlackFigLanding from '../../assets/img/theblackfig-screenshot.webp';
 
 
 const Projects = () => {
 
   const projects = [
-    {
-      id: 0,
-      title: "Tea Sales Webpage",
-      techs: ["Adobe XD", "HTML", "CSS"],
-      image: teatopiaLanding,
-      description: "A responsive website for a fictional Tea company. Designed and built from scratch with plain HTML/CSS",
-      liveLink: "https://teatopia.online/",
-      codeLink: "https://github.com/burtonmars/teatopia" 
-    },
         {
     id: 1,
-      title: "My Portfolio",
-      techs: ["React", "Tailwind", "emailJS", "HTML", "SCSS", "Figma"],
-      image: portfolioLanding,
-      description: "My personal portfolio (this site). Built with React, Next.JS, and Tailwind.",
-      liveLink: "",
-      codeLink: "https://github.com/burtonmars/portfolio-site" 
+    id: 0,
+      title: "Ambient Focus",
+      techs: ["React", "Next.JS", "HTML", "SCSS", "Figma"],
+      image: ambientFocusLanding,
+      description: "A customizable soundscape tool for creating peaceful ambient sound.",
+      liveLink: "https://ambient-focus-chi.vercel.app/",
+      codeLink: "https://github.com/burtonmars/ambient-temp" 
     },
         {
     id: 2,
+      title: "My Portfolio",
+      techs: ["React", "Tailwind", "emailJS", "HTML", "SCSS", "Figma"],
+      image: portfolioLanding,
+      description: "My personal portfolio (this site).",
+      liveLink: "",
+      codeLink: "https://github.com/burtonmars/portfolio-site" 
+    },
+    {
       title: "Restaurant Webpage",
       techs: ["React", "Next.JS", "HTML", "SCSS", "Figma"],
-      image: theblackFigLanding,
-      description: "A responsive website built for a fictional restaurant. Highlights include a google maps widget.",
+      image: theBlackFigLanding,
+      description: "A responsive website built for a fictional restaurant.",
       liveLink: "https://the-black-fig.vercel.app/",
       codeLink: "https://github.com/burtonmars/the-black-fig" 
+     
     }
   ]
 
