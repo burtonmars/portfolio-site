@@ -28,15 +28,16 @@ const ProjectCard = (project) => {
 };
 
 /**
- * Create a list of objects with an incremental ID and a value for each string in a given list.
+ * Create a list of objects from a list of strings with an incremental ID and a value for each string
+ * in the given list.
  * @param {Array<string>} list - The list of strings to create objects from.
  * @returns {Array<Object>} - The list of objects with an ID and value for each input string.
  */
 function getListOfStringWithID(listOfString) {
-  var result = [];
-  var id = 0;
+  let result = [];
+  let id = 0;
   
-  for (var i = 0; i < listOfString.length; i++) {
+  for (let i = 0; i < listOfString.length; i++) {
     result.push({id: id, value: listOfString[i]});
     id++;
   }

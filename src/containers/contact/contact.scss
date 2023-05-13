@@ -37,22 +37,43 @@
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 415px) {
+    .contact-form-container {
+        h1 {
+            font-size: 2.2rem;
+        }
+
+        .contact-form {
+            width: 100%;
+            border-radius: 0%;
+        }
+    }
+
     .sub-title {
         display: none;
     }
 
     input {
-        height: 10px;
-        width: auto;
+        height: 1.5rem;
+        width: 70vw !important;
+    }
+
+    textarea {
+        width: 70vw !important;
     }
 
     .input-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: -3rem;
-        margin-right: -2rem;
+        width: 100vw;
+    }
+
+    .send-button {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1.4rem;
+        margin-top: 1rem;
     }
 
 }

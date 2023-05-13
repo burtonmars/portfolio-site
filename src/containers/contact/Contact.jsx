@@ -57,7 +57,7 @@ const Contact = () => {
   return (
     <div className='contact-container background-tint' id="contact">
       <div className="contact-form-container h-screen flex items-center justify-center">
-        <form ref={form} onSubmit={formik.handleSubmit} className='bg-white flex items-center justify-center rounded-lg w-4/5 max-w-screen-lg'>
+        <form ref={form} onSubmit={formik.handleSubmit} className='contact-form bg-white flex items-center justify-center rounded-lg w-4/5 max-w-screen-lg'>
           <div className='contact-info flex-1 p-10 text-sm leading-8'>
             <p className='font-bold'>Contact Info</p>
             <p>Phone: 604-446-4461</p>
