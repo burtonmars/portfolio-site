@@ -17,7 +17,7 @@ const Menu = () => (
     <p className='linkedin-icon'><a href="https://www.linkedin.com/in/marshal-burton/" target='_blank' rel="noreferrer">
       <img src={linkedinLogo} alt="Linkedin" /></a>
     </p>
-    <p className='github-text' ><a href="https://github.com/burtonmars?tab=repositories" target='_blank' rel="noreferrer">
+    <p className='github-text' ><a href="https://github.com/burtonmars" target='_blank' rel="noreferrer">
       Github</a>
     </p>
     <p className='linkedin-text' ><a href="https://www.linkedin.com/in/marshal-burton/" target='_blank' rel="noreferrer">
