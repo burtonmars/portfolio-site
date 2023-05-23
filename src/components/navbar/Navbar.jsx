@@ -7,8 +7,8 @@ import './navbar.scss';
 
 const Menu = () => (
   <>
-    <p><a href='#projects'>Projects</a></p>
     <p><a href="#skills">Skills</a></p>
+    <p><a href='#projects'>Projects</a></p>
     <p><a href="Marshal Burton CV.pdf" target='_blank' rel="noreferrer"><button>Resume</button></a></p>
     <p><a href="#contact">Contact</a></p>
     <p className='github-icon'><a href="https://github.com/burtonmars?tab=repositories" target='_blank' rel="noreferrer">

@@ -61,12 +61,12 @@ const Contact = () => {
           <div className='contact-info flex-1 p-10 text-sm leading-8'>
             <p className='font-bold'>Contact Info</p>
             <p>Phone: 604-446-4461</p>
-            <p>email: <a href="mailto:marshal.t.burton@gmail.com">marshal.t.burton@gmail.com</a></p>
+            <p>email: marshal.t.burton@gmail.com</p>
           </div>
           <div className='dividing-bar border-gray-600'></div>
           <div className='input-container flex-[2_2_0%] text-gray-700 p-20'>
             <h1 className='title text-3xl pb-2 font-bold'>Contact</h1>
-            <p className='sub-title text-lg text-gray-500'>send me and email if you want to connect</p>
+            <p className='sub-title text-lg text-gray-500'>send me an email if you want to connect</p>
             <div className='mt-6'>
               {/* name input */}
               <div className='pb-4'>
